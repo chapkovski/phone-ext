@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe97e984-77be-4722-a5e3-26735c93a842" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/_builtin/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/q1.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/q3.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/templates/mahmoud/Background.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/templates/mahmoud/Intro.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/templates/mahmoud/Question1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/templates/mahmoud/Question2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/templates/mahmoud/Question3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/templates/mahmoud/Results.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mahmoud/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/_builtin/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/forms.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/management/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/management/commands/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/management/commands/checksessions.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/migrations/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/mturk.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/otree_extensions/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/otree_extensions/admin.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/otree_extensions/urls.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/templates/testing_utils/Editing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/templates/testing_utils/MyPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/templates/testing_utils/PELBase.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/templates/testing_utils/email_lookup.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/templates/testing_utils/no_slots.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/tests.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testing_utils/views.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mahmoud.iml" afterPath="$PROJECT_DIR$/.idea/mahmoud.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/models.py" afterPath="$PROJECT_DIR$/phone_id_ext/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements_base.txt" afterPath="$PROJECT_DIR$/requirements_base.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,16 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="67" column="25" lean-forward="false" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,14 +31,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#134#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements_base.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements_base.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements_server.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements_server.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,21 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checksessions.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phone_id_ext/management/commands/checksessions.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="105">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -193,7 +172,6 @@
         <option value="$PROJECT_DIR$/mahmoud/~q1.csv" />
         <option value="$PROJECT_DIR$/mahmoud/templates/mahmoud/Question2.html" />
         <option value="$PROJECT_DIR$/mahmoud/templates/mahmoud/Question1.html" />
-        <option value="$PROJECT_DIR$/requirements_base.txt" />
         <option value="$PROJECT_DIR$/mahmoud/templates/mahmoud/Results.html" />
         <option value="$PROJECT_DIR$/mahmoud/tests.py" />
         <option value="$PROJECT_DIR$/mahmoud/management/commands/checksessions.py" />
@@ -204,11 +182,12 @@
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/management/commands/checksessions.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py" />
-        <option value="$PROJECT_DIR$/phone_id_ext/models.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/no_slots.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/email_lookup.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/views.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/forms.py" />
+        <option value="$PROJECT_DIR$/requirements_base.txt" />
+        <option value="$PROJECT_DIR$/phone_id_ext/models.py" />
       </list>
     </option>
   </component>
@@ -219,7 +198,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="563" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
   </component>
@@ -308,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <frame x="0" y="563" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -348,7 +327,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/riskpooling/riskpooling/templates/riskpooling/Question3c.html" />
     <entry file="file://$PROJECT_DIR$/riskpooling/riskpooling/templates/riskpooling/Question3b.html" />
     <entry file="file://$PROJECT_DIR$/riskpooling/riskpooling/templates/riskpooling/Question3a.html" />
     <entry file="file://$PROJECT_DIR$/riskpooling/riskpooling/tests.py" />
@@ -406,22 +384,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mahmoud/templates/mahmoud/Question2.html" />
     <entry file="file://$PROJECT_DIR$/mahmoud/templates/mahmoud/Question1.html" />
-    <entry file="file://$PROJECT_DIR$/requirements_server.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements_base.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mahmoud/templates/mahmoud/Results.html" />
     <entry file="file://$PROJECT_DIR$/mahmoud/~q1.csv" />
     <entry file="file://$PROJECT_DIR$/mahmoud/~q3.csv" />
@@ -490,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#134#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/no_slots.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -536,8 +488,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phone_id_ext/forms.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements_server.txt">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements_base.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
