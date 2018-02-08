@@ -1,0 +1,25 @@
+{% extends "otree/BaseAdmin.html" %}
+{% load staticfiles  %}
+{% block title %}
+Phone records
+{% endblock %}
+
+{% block content %}
+
+<ul>
+
+    {% for phone_record in object_list %}
+    {{phone_record.phone_id}} {{phone_record.participant.code}}. <a href="{{ phone_record.get_absolute_url }}">Link</a>
+    {{phone_record.taken}}
+    {% empty %}
+    <li>No records</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+{% block internal_styles %}
+
+{{ block.super }}
+
+{% endblock %}
+
