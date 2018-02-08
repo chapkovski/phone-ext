@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe97e984-77be-4722-a5e3-26735c93a842" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/email_lookup.html" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/phone_id_lookup.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/forms.py" afterPath="$PROJECT_DIR$/phone_id_ext/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/management/commands/checksessions.py" afterPath="$PROJECT_DIR$/phone_id_ext/management/commands/checksessions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/models.py" afterPath="$PROJECT_DIR$/phone_id_ext/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py" afterPath="$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/views.py" afterPath="$PROJECT_DIR$/phone_id_ext/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html" afterPath="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +78,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-72">
-              <caret line="59" column="44" lean-forward="false" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
+            <state relative-caret-position="133">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="36" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -97,8 +90,8 @@
       <file leaf-file-name="LinkedSessionDelete.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="97">
+              <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -107,7 +100,7 @@
       <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="252">
               <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
@@ -116,21 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phone_id_ext/tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneRecordsList.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PhoneRecordsList.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="238">
+              <caret line="31" column="93" lean-forward="false" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -149,8 +132,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -161,8 +144,18 @@
       <file leaf-file-name="LinkedSessionList.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="135">
+              <caret line="9" column="84" lean-forward="false" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedSessionCreate.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="99" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -178,10 +171,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone_id_ext/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="385">
               <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -250,19 +243,19 @@
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/no_slots.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/email_lookup.html" />
         <option value="$PROJECT_DIR$/requirements_base.txt" />
-        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/otree_extensions/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/management/commands/checksessions.py" />
-        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/phone_id_lookup.html" />
-        <option value="$PROJECT_DIR$/phone_id_ext/forms.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/views.py" />
-        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/models.py" />
+        <option value="$PROJECT_DIR$/phone_id_ext/forms.py" />
+        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html" />
+        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html" />
+        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html" />
+        <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html" />
       </list>
     </option>
   </component>
@@ -378,6 +371,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -386,7 +380,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46372688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46372688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -570,14 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="76" lean-forward="false" selection-start-line="14" selection-start-column="76" selection-end-line="14" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testphone/pages.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -628,64 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/phone_id_lookup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="59" column="44" lean-forward="false" selection-start-line="59" selection-start-column="44" selection-end-line="59" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -700,11 +632,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/phone_id_ext/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="385">
           <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="84" lean-forward="false" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionCreate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="99" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionDelete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="12" column="103" lean-forward="false" selection-start-line="12" selection-start-column="103" selection-end-line="12" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="31" column="93" lean-forward="false" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
+          <folding />
         </state>
       </provider>
     </entry>
