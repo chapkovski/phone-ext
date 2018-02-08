@@ -6,6 +6,7 @@ import dj_database_url
 import otree.settings
 
 EXTENSION_APPS = ['phone_id_ext']
+INSTALLED_APPS = ['otree', 'phone_id_ext']
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # the environment variable OTREE_PRODUCTION controls whether Django runs in
@@ -53,12 +54,10 @@ AUTH_LEVEL = environ.get('OTREE_AUTH_LEVEL')
 AWS_ACCESS_KEY_ID = environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = environ.get('AWS_SECRET_ACCESS_KEY')
 
-
 # e.g. EUR, CAD, GBP, CHF, CNY, JPY
 REAL_WORLD_CURRENCY_CODE = 'USD'
 USE_POINTS = True
 POINTS_CUSTOM_NAME = 'CHF'
-
 
 # e.g. en, de, fr, it, ja, zh-hans
 # see: https://docs.djangoproject.com/en/1.9/topics/i18n/#term-language-code
@@ -67,7 +66,7 @@ LANGUAGE_CODE = 'en'
 # if an app is included in SESSION_CONFIGS, you don't need to list it here
 INSTALLED_APPS = ['otree']
 
-SENTRY_DSN = 'http://2d6137799b914e1693146c5011f39030:46838e8caa374937a91b14b59ebbe164@sentry.otree.org/36'
+# SENTRY_DSN = 'http://2d6137799b914e1693146c5011f39030:46838e8caa374937a91b14b59ebbe164@sentry.otree.org/36'
 
 DEMO_PAGE_INTRO_TEXT = """
 oTree games
@@ -80,7 +79,7 @@ mturk_hit_settings = {
     'frame_height': 500,
     'preview_template': 'global/MTurkPreview.html',
     'minutes_allotted_per_assignment': 60,
-    'expiration_hours': 7*24,  # 7 days
+    'expiration_hours': 7 * 24,  # 7 days
     # 'grant_qualification_id': 'YOUR_QUALIFICATION_ID_HERE',# to prevent retakes
     # to use qualification requirements, you need to uncomment the 'qualification' import
     # at the top of this file.
@@ -99,14 +98,12 @@ SESSION_CONFIG_DEFAULTS = {
     'mturk_hit_settings': mturk_hit_settings,
 }
 
-
 SESSION_CONFIGS = [
     {
         'name': 'testphone',
         'display_name': 'testing Phone ID',
         'num_demo_participants': 1,
         'app_sequence': ['testphone'],
-
 
     }
 ]

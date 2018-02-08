@@ -1,34 +1,35 @@
-
 from . import models
 import vanilla
 from .forms import EmailLookupForm
 from django.core.exceptions import ObjectDoesNotExist
-from django.core.urlresolvers import reverse
+from django.core.urlresolvers import reverse, reverse_lazy
 
 
-class EmailLookupView(vanilla.FormView):
-    form_class = EmailLookupForm
-    template_name = 'phone_id_ext/email_lookup.html'
-    # participant_code = None
-    email = None
-
-    def form_valid(self, form):
-        self.email = form.cleaned_data['email']
-        try:
-            PEL = models.ParticipantEmailLookup.objects.get(email=self.email)
-        except ObjectDoesNotExist:
-            PEL= models.ParticipantEmailLookup.objects.filter(email__isnull=True).first()
-            if PEL is None:
-                self.success_url = reverse('no_slots')
-                return super().form_valid(form)
-            else:
-                PEL.email = self.email
-                PEL.save()
+class CreateLinkedSessionView(vanilla.CreateView):
+    model = models.LinkedSession
+    fields = ['session']
+    template_name = 'phone_id_ext/LinkedSessionCreate.html'
+    success_url = reverse_lazy('linked_sessions_list')
 
 
-        self.success_url =PEL.get_absolute_url()
+# to delete linked session
+class DeleteLinkedSessionView(vanilla.DeleteView):
+    ...
 
-        return super().form_valid(form)
+
+# view to show linked session
+class ListLinkedSessionsView(vanilla.ListView):
+    template_name = 'phone_id_ext/LinkedSessionList.html'
+    url_name = 'linked_sessions_list'
+    url_pattern = r'^linked_sessions/$'
+    display_name = 'Linked sessions management for Phone surveys'
+    model = models.LinkedSession
+
+    def get(self, request, *args, **kwargs):
+        return super().get(request, *args, **kwargs)
+        # all_sessions = Session.objects.all()
+        # return render(request, self.template_name, {'sessions': all_sessions})
 
 
-
+class ListPhoneRecordsView(vanilla.ListView):
+    ...

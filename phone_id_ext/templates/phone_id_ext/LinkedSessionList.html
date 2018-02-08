@@ -1,0 +1,24 @@
+{% extends "otree/BaseAdmin.html" %}
+{% load staticfiles  %}
+{% block title %}
+List of linked sessions
+{% endblock %}
+
+{% block content %}
+
+<ul>
+    <a class="btn btn-primary" href="{% url 'create_linked_session' %}" role="button">Link new session</a>
+    {% for linked_session in object_list %}
+         <li>{{linked_session.session.code}}</li>
+    {% empty %}
+          <li>No linked sessions yet.</li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+{% block internal_styles %}
+
+{{ block.super }}
+
+{% endblock %}
+
