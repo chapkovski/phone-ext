@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe97e984-77be-4722-a5e3-26735c93a842" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__temp_migrations/otree/0001_initial.py" afterPath="$PROJECT_DIR$/__temp_migrations/otree/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__temp_migrations/testphone/0001_initial.py" afterPath="$PROJECT_DIR$/__temp_migrations/testphone/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py" afterPath="$PROJECT_DIR$/phone_id_ext/otree_extensions/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phone_id_ext/views.py" afterPath="$PROJECT_DIR$/phone_id_ext/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testphone/pages.py" afterPath="$PROJECT_DIR$/testphone/pages.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,11 +94,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyPage.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyPage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testphone/templates/testphone/MyPage.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -118,16 +122,6 @@
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhoneRecordsList.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/PhoneRecordsList.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="93" lean-forward="false" selection-start-line="31" selection-start-column="93" selection-end-line="31" selection-end-column="93" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -251,7 +245,6 @@
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/email_lookup.html" />
         <option value="$PROJECT_DIR$/requirements_base.txt" />
         <option value="$PROJECT_DIR$/phone_id_ext/otree_extensions/admin.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/phone_id_ext/management/commands/checksessions.py" />
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/phone_id_lookup.html" />
         <option value="$PROJECT_DIR$/phone_id_ext/models.py" />
@@ -264,6 +257,7 @@
         <option value="$PROJECT_DIR$/phone_id_ext/templates/phone_id_ext/LinkedSessionList.html" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/testphone/pages.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -304,17 +298,6 @@
             <path>
               <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
               <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="_static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="_static" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
               <item name="_templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,54 +305,6 @@
               <item name="phoneid" type="462c0819:PsiDirectoryNode" />
               <item name="_templates" type="462c0819:PsiDirectoryNode" />
               <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_id_ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_id_ext" type="462c0819:PsiDirectoryNode" />
-              <item name="_builtin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_id_ext" type="462c0819:PsiDirectoryNode" />
-              <item name="otree_extensions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_id_ext" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_id_ext" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="phone_id_ext" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="testphone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="testphone" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoneid" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoneid" type="462c0819:PsiDirectoryNode" />
-              <item name="testphone" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="testphone" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,6 +360,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -434,7 +370,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.46262342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -534,13 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
           <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -675,6 +604,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
