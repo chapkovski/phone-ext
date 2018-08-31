@@ -4,8 +4,7 @@ from .models import Constants
 
 
 class MyPage(Page):
-    pass
-
+    ...
 
 class ResultsWaitPage(WaitPage):
 

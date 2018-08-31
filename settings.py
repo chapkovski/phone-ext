@@ -6,8 +6,13 @@ import dj_database_url
 import otree.settings
 
 EXTENSION_APPS = ['phone_id_ext']
-INSTALLED_APPS = ['otree', 'phone_id_ext']
+INSTALLED_APPS = ['otree', 'phone_id_ext', 'django_user_agents']
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MIDDLEWARE_CLASSES = (
+    # other middlewares...
+    'django_user_agents.middleware.UserAgentMiddleware',
+)
 
 # the environment variable OTREE_PRODUCTION controls whether Django runs in
 # DEBUG mode. If OTREE_PRODUCTION==1, then DEBUG=False
@@ -111,3 +116,7 @@ SESSION_CONFIGS = [
 # anything you put after the below line will override
 # oTree's default settings. Use with caution.
 otree.settings.augment_settings(globals())
+# MIDDLEWARE = (
+#     # other middlewares...
+#     'django_user_agents.middleware.UserAgentMiddleware',
+# )

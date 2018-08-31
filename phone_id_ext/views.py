@@ -42,10 +42,6 @@ class PhoneIdlLookupView(vanilla.FormView):
     form_class = PhoneIdlLookupForm
     template_name = 'phone_id_ext/phone_id_lookup.html'
 
-    def form_invalid(self, form):
-
-        response = super().form_invalid(form)
-        return response
 
     def form_valid(self, form):
         self.phoneid = form.cleaned_data['phone_id']

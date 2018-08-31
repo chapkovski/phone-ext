@@ -7,8 +7,7 @@ urlpatterns = [url(r'^linkedsession/(?P<pk>[a-zA-Z0-9_-]+)/delete/$', v.DeleteLi
                    name='create_linked_session'),
                url(r'^linkedsession/(?P<lsession>[a-zA-Z0-9_-]+)/phonerecords/$',
                    v.ListPhoneRecordsView.as_view(), name='list_phone_records'),
-               url(r'^phoneid_lookup/$', v.PhoneIdlLookupView.as_view(),
-                   name='phoneid_lookup'),
+               url(r'^phoneid_lookup/$', v.PhoneIdlLookupView.as_view(), name='phoneid_lookup'),
                url(r'^export_linked/$', v.ExportLinkedDataView.as_view(),
                    name='export_linked'),
 
